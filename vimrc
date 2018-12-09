@@ -1,9 +1,9 @@
 " Basic rulesets
+set nocompatible
 set ruler
 set laststatus=2
 set number
 syntax on
-set nocompatible
 set t_co=256
 set tabstop=4
 set shiftwidth=4
@@ -12,7 +12,10 @@ let mapleader = ","
 nmap<leader>ne :NERDTree<cr>
 vnoremap < <gv
 vnoremap > >gv
-colorscheme moody
+set background=dark
+colorscheme iceberg
+set wildmode=longest,list,full
+au BufEnter * set fo-=c fo-=r fo-=o
 
 " Basic rulesets end
 
