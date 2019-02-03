@@ -13,7 +13,7 @@ nmap<leader>ne :NERDTree<cr>
 vnoremap < <gv
 vnoremap > >gv
 set background=dark
-colorscheme iceberg
+colorscheme moody
 set wildmode=longest,list,full
 au BufEnter * set fo-=c fo-=r fo-=o
 
@@ -43,9 +43,12 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'tpope/vim-commentary'
 Plugin 'kien/ctrlp.vim'
+Plugin 'elmcast/elm-vim'
+Plugin 'chiel92/vim-autoformat'
 
 
-
+" JsBeautify stuff
+noremap <c-f> :Autoformat<CR>
 
 
 call vundle#end()
