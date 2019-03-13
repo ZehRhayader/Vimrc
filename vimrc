@@ -45,6 +45,8 @@ Plugin 'tpope/vim-commentary'
 Plugin 'kien/ctrlp.vim'
 Plugin 'elmcast/elm-vim'
 Plugin 'chiel92/vim-autoformat'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 
 " JsBeautify stuff
